@@ -2,10 +2,34 @@
 body{
     background-image: linear-gradient(to top, rgb(183, 0, 255), rgb(22, 178, 206), rgb(92, 100, 221) );
 }
-
+div#formulario > h1{
+    font-size: 3em;
+    padding: 10px;
+}
+div#formulario > p{
+    font-size: 2em;
+}
 section#login{
     width: 80vw;
 }
+div.campo{
+    text-align: center;
+    font-size: 1.5em;
+}
+div.campo > input#ilogin{
+    margin-top: 30px;
+}
+
+input#ilogin{
+    padding: 2px;
+    width: 200px;
+}
+input#isenha{
+    position: relative;
+    padding: 2px;
+    width: 200px;
+}
+
 div#imagem{
     float: left;
     width: 30%;
@@ -14,4 +38,34 @@ div#imagem{
 div#formulario{
     float: right;
     width: 70%;
+}
+form{
+    text-align: center;
+}
+form > input#enviar{
+    width: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-16%, 380%);
+}
+form > input#limpar{
+    width: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(89%, 380%);
+}
+form > a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, 800%);
+    font-size: 1.2em;
+}
+form > span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(750%, 495%);
 }
