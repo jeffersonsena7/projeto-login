@@ -26,7 +26,7 @@ section#login{
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
-    transition: width 0.5s, heith 0.5s;
+    transition: width 0.2s, heith 0.2s;
 }
 div#imagem{
     display: block;
