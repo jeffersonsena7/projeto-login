@@ -22,8 +22,8 @@ section#login{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 250px;
-    height: 530px;
+    width: 270px;
+    height: 540px;
     border-radius: 20px;
     overflow: hidden;
     transition: width 0.2s, heith 0.2s;
@@ -55,6 +55,7 @@ form > input{
     padding: 2px;
     margin-left: 12px;
     width: 80px;
+    margin-bottom: 20px;
 }
 form > div.campo > input{
     width: 150px;

@@ -4,7 +4,8 @@ body, html{
     background-image: linear-gradient(to top, rgb(183, 0, 255), rgb(22, 178, 206), rgb(92, 100, 221) );
 }
 section#login{
-    width: 950px;
+    width: 90vw;
+    height: 78vh;
 }
 div#imagem{
     float: left;

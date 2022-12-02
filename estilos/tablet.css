@@ -11,6 +11,7 @@ div#formulario > p{
 }
 section#login{
     width: 80vw;
+    height: 75vh;
 }
 div.campo{
     text-align: center;
