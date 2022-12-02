@@ -48,6 +48,7 @@ form > input#enviar{
 }
 form > input{
     margin-top: 10px;
+    margin-bottom: 0px;
 }
 form > input#limpar{
     width: 90px;
@@ -55,5 +56,6 @@ form > input#limpar{
 }
 form > a{
     font-size: 1em;
+
 }
 
