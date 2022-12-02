@@ -61,12 +61,10 @@ form > div.campo > input{
 }
 form > a{
     padding-left: 30px;
+    text-align: center;
 }
 form > a:hover{
     background-color: lightgray;
     color: rgb(218, 94, 94);
-}
-form > span{
-    padding: 5px;
 }
 

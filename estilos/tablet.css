@@ -25,7 +25,6 @@ input#ilogin{
     width: 200px;
 }
 input#isenha{
-    position: relative;
     padding: 2px;
     width: 200px;
 }
@@ -43,33 +42,19 @@ form{
     text-align: center;
 }
 form > input#enviar{
-    box-sizing: border-box;
+    margin-left: 20px;
     width: 90px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-20%, 360%);
+}
+form > input{
+    margin-top: 10px;
 }
 form > input#limpar{
-    box-sizing: border-box;
     width: 90px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(88%, 360%);
+    margin-right: 50px;
 }
 form > a{
-    box-sizing: border-box;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-10%, 800%);
     font-size: 1.2em;
 }
 form > span{
-    box-sizing: border-box;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(500%, 495%);
+   padding-top: 50px;
 }
