@@ -43,20 +43,23 @@ form{
     text-align: center;
 }
 form > input#enviar{
+    box-sizing: border-box;
     width: 90px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-16%, 380%);
+    transform: translate(-20%, 360%);
 }
 form > input#limpar{
+    box-sizing: border-box;
     width: 90px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(89%, 380%);
+    transform: translate(88%, 360%);
 }
 form > a{
+    box-sizing: border-box;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,8 +67,9 @@ form > a{
     font-size: 1.2em;
 }
 form > span{
+    box-sizing: border-box;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(750%, 495%);
+    transform: translate(500%, 495%);
 }

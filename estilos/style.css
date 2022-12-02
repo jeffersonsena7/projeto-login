@@ -23,7 +23,7 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 530px;
     border-radius: 20px;
     overflow: hidden;
     transition: width 0.2s, heith 0.2s;
@@ -65,5 +65,8 @@ form > a{
 form > a:hover{
     background-color: lightgray;
     color: rgb(218, 94, 94);
+}
+form > span{
+    padding: 5px;
 }
 
