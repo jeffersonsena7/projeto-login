@@ -3,11 +3,11 @@ body{
     background-image: linear-gradient(to top, rgb(183, 0, 255), rgb(22, 178, 206), rgb(92, 100, 221) );
 }
 div#formulario > h1{
-    font-size: 2em;
-    padding: 10px;
+    font-size: 1.5em;
+    padding: 5px;
 }
 div#formulario > p{
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 section#login{
     width: 80vw;
@@ -51,9 +51,9 @@ form > input{
 }
 form > input#limpar{
     width: 90px;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 form > a{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
