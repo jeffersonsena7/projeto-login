@@ -18,18 +18,18 @@ div#formulario{
     
 }
 div#formulario > h1{
-    font-size: 3em;
+    font-size: 2em;
     padding: 10px;
 }
 div#formulario > p{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 div.campo{
     text-align: center;
     font-size: 1.5em;
 }
 div.campo > input#ilogin{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 input#ilogin{
     padding: 2px;
@@ -55,8 +55,5 @@ form > input#limpar{
 form > a{
     
     text-align: center;
-    font-size: 1.2em;
-}
-form > span{
-   padding-top: 50px;
+    font-size: 1.1em;
 }
