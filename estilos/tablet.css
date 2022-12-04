@@ -15,12 +15,18 @@ section#login{
 }
 div.campo{
     padding: 0px;
-    font-size: 1.1em;
+    font-size: 1em;
+    width: 53vw;
+    height: 37px;
 }
 div.campo > input#ilogin{
-    margin-top: 10px;
+    width: 47vw;
+    transform: translate(0px, -5px);
 }
-
+div.campo > input#isenha{
+    width: 47vw;
+    transform: translate(0px, -5px);
+}
 input#ilogin{
     padding: 5px;
     width: 300px;
