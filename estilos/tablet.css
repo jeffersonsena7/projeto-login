@@ -17,7 +17,7 @@ div.campo{
     padding: 0px;
     font-size: 1em;
     width: 53vw;
-    height: 37px;
+    height: 39px;
 }
 div.campo > input#ilogin{
     width: 47vw;
@@ -28,11 +28,11 @@ div.campo > input#isenha{
     transform: translate(0px, -5px);
 }
 input#ilogin{
-    padding: 5px;
+    padding: 3px;
     width: 300px;
 }
 input#isenha{
-    padding: 5px;
+    padding: 3px;
     width: 300px;
 }
 
@@ -53,7 +53,7 @@ form > input#enviar{
     width: 90px;
 }
 form > input{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 0px;
 }
 form > input#limpar{
