@@ -14,7 +14,7 @@ section#login{
     height: 75vh;
 }
 div.campo{
-    text-align: center;
+    padding: 0px;
     font-size: 1.1em;
 }
 div.campo > input#ilogin{
@@ -22,12 +22,12 @@ div.campo > input#ilogin{
 }
 
 input#ilogin{
-    padding: 2px;
-    width: 200px;
+    padding: 5px;
+    width: 300px;
 }
 input#isenha{
-    padding: 2px;
-    width: 200px;
+    padding: 5px;
+    width: 300px;
 }
 
 div#imagem{
@@ -56,6 +56,7 @@ form > input#limpar{
 }
 form > a{
     font-size: 1em;
+    margin-top: 20px;
 
 }
 

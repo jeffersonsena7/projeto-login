@@ -42,30 +42,71 @@ div#formulario{
 }
 div#formulario > h1{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 div#formulario > p{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 div.campo{
-    padding-top: 5px;
+    padding-top: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(59, 19, 97);
+    border-radius: 20px;
+    margin-bottom: 3px;
+}
+label{
+    background-color: red;
+}
+div.campo > i{
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+}
+div.campo > input{
+    box-sizing: border-box;
+    background-color: rgb(22, 178, 206);
+    width: 173px;
+    padding-top: 18px;
+    border-radius: 20px;
+    margin: 5px;
+    margin-left: 6px;
+    text-align: center;
+    font-size: 1em;
+}
+div.campo > input:hover{
+    background-color: white;
+    color: blue;
+    font-weight: bolder;
 }
 form > input{
     margin-top: 7px;
     padding: 2px;
-    margin-left: 12px;
-    width: 80px;
+    width: 100px;
     margin-bottom: 20px;
+    background-color: rgb(14, 7, 75);
+    color: white;
 }
-form > div.campo > input{
-    width: 150px;
+form > input#enviar{
+    margin-left:16px;
 }
+
+form > input:hover{
+    background-color: rgb(183, 0, 255);
+}
+
 form > a{
-    padding-left: 30px;
+    display: block;
+    background-color: gray;
+    border-radius: 8px;
+    color: white;  
+    padding-bottom: 5px;  
+    transform: translateY(-10px);
+}
+a{
     text-align: center;
 }
 form > a:hover{
     background-color: lightgray;
-    color: rgb(218, 94, 94);
+    color: rgb(71, 44, 221);
 }
-
