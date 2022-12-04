@@ -66,10 +66,12 @@ div.campo > i{
 div.campo > input{
     box-sizing: border-box;
     background-color: rgb(22, 178, 206);
-    width: 173px;
-    padding-top: 18px;
+    width: 160px;
+    padding: 5px;
+    padding-top: 15px;
     border-radius: 20px;
-    margin: 5px;
+    margin: 0px;
+    border: 0p;
     margin-left: 6px;
     text-align: center;
     font-size: 1em;
