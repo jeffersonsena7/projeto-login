@@ -22,8 +22,8 @@ section#login{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 250px;
-    height: 540px;
+    width: 255px;
+    height: 550px;
     border-radius: 20px;
     overflow: hidden;
     transition: width 0.2s, heith 0.2s;
@@ -48,12 +48,11 @@ div#formulario > p{
     font-size: 1em;
 }
 div.campo{
-    padding-top: 0px;
     margin: 0px;
-    border: 0px;
     background-color: rgb(59, 19, 97);
     border-radius: 20px;
     margin-bottom: 3px;
+    width: 230px;
 }
 label{
     background-color: red;
@@ -61,16 +60,16 @@ label{
 div.campo > i{
     color: white;
     font-size: 2em;
-    padding: 5px;
+    padding: 4px;
 }
 div.campo > input{
     box-sizing: border-box;
     background-color: rgb(22, 178, 206);
-    width: 160px;
+    width: 178px;
     padding: 5px;
-    padding-top: 15px;
+    padding-top: 20px;
     border-radius: 20px;
-    margin: 0px;
+    margin-bottom: 2px;
     border: 0p;
     margin-left: 6px;
     text-align: center;
